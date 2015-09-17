@@ -9,6 +9,11 @@ http.createServer(app).listen(5000,function(){
 	console.log("===============================");
 });
 
+app.set('view engine','ejs');
+app.set('views','./views');
+app.use(express.static('./public'));
+
+
 app.get('/',function(req,res){
-	res.send("cloud app");
+	res.render('index');
 });
