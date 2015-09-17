@@ -1,0 +1,14 @@
+{
+  "name": "ecloud",
+  "version": "0.0.1",
+  "description": "ecloud app",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atxemailtest/ecloud.git"
+  },
+  "author": "Ricardo Levano",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
